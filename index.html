@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Was ist ein Wald? Was ist ein gesunder Wald? – Transition Woods</title>
+  <style>
+    :root{
+      --max: 860px;         /* Textbreite */
+      --gap: 18px;
+      --fg: #0f172a;
+      --muted: #475569;
+      --line: #e2e8f0;
+      --bg: #ffffff;
+      --accent: #0f766e;
+      --bar-bg: rgba(255,255,255,.78); /* weniger transparent = besser lesbar */
+    }
+    html,body{
+      margin:0; padding:0; background:var(--bg); color:var(--fg);
+      font:16px/1.68 system-ui,-apple-system,Segoe UI,Roboto,Inter,Helvetica,Arial,sans-serif;
+      -webkit-text-size-adjust:100%;
+      text-rendering:optimizeLegibility;
+      font-kerning: normal;
+      font-feature-settings: "liga","kern";
+      overflow-x: hidden;
+    }
+    main{max-width:var(--max);margin:0 auto; padding:22px;}
+    h1{font-size:1.9rem;line-height:1.25;margin:10px 0 6px; text-wrap:balance}
+    .subtitle{margin:0 0 14px; color:var(--muted); font-size:1.05rem}
+    h2{font-size:1.18rem; line-height:1.35; margin:22px 0 8px; text-wrap:balance}
+    p{
+      margin:0 0 1.1rem;
+      text-align:justify; text-justify:inter-word;
+      hyphens:auto; -webkit-hyphens:auto; -ms-hyphens:auto;
+    }
+    em{font-style:italic}
+    a{color:var(--accent);text-decoration:underline}
+    hr{border:0;border-top:1px solid var(--line);margin:22px 0}
+
+    /* Full-bleed Hero (oben & unten) */
+    .hero,
+    .hero-bottom{
+      position:relative;
+      left:50%; right:50%;
+      margin-left:-50vw; margin-right:-50vw;
+      width:100vw;
+    }
+    .hero img{
+      display:block; width:100%;
+      height:clamp(260px, 44vh, 520px);
+      object-fit:cover; object-position:center 40%;
+      border:0;
+    }
+    .hero-bottom img{
+      display:block; width:100%;
+      height:clamp(200px, 34vh, 380px);
+      object-fit:cover;
+    }
+
+    /* Durchgehende Header-/Footer-Leisten */
+    .header-bar,
+    .footer-bar{
+      position:absolute; left:0; right:0; z-index:2;
+      background: var(--bar-bg);
+      -webkit-backdrop-filter: blur(6px) saturate(140%);
+      backdrop-filter: blur(6px) saturate(140%);
+      color:var(--muted);
+    }
+    .header-bar{ top:0; padding:8px 14px; }
+    .footer-bar{ bottom:0; padding:12px 16px; }
+    .bar-inner{ max-width: var(--max); margin:0 auto; font-size:.92rem; }
+    .bar-row{ margin:2px 0 }
+    .bar-strong{ color:var(--fg) }
+
+    /* Abgesetzte Boxen */
+    .scene{
+      margin:18px 0;
+      padding:14px 16px;
+      background:#f8fafc;
+      border-left:4px solid #94a3b8;
+      border-radius:10px;
+      font-size:1.02rem;
+    }
+    .scene p{ margin:0; }
+    .note{
+      margin:12px 0 0;
+      padding:12px 14px;
+      background:#f8fafc;
+      border-left:3px solid #94a3b8;
+      border-radius:8px;
+      color:var(--muted);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Full-bleed Hero oben mit durchgehender Headerleiste -->
+  <figure class="hero" aria-label="Banner">
+    <img src="gesunder_wald1.png" alt="Waldszene – dichte Stämme, dunkles Unterholz" loading="lazy">
+    <div class="header-bar" role="banner">
+      <div class="bar-inner">
+        <div class="bar-row"><span class="bar-strong">Autorin:</span> ANTONIA KREUTZER · <span class="bar-strong">Format:</span> Arbeitsprobe</div>
+        <div class="bar-row">Ergänzung zum Projekt <a href="https://careseite.primatevisions.de/careseite/" target="_blank" rel="noopener noreferrer">Careseite</a> (LMU München).</div>
+      </div>
+    </div>
+  </figure>
+
+  <main>
+    <!-- Titel -->
+    <h1>Was ist ein Wald? Was ist ein gesunder Wald?</h1>
+    <p class="subtitle">
+      In Wäldern um München mit Niels und Christoph von der
+      <a href="http://transitionwoods.org" target="_blank" rel="noopener">Initiative Transition Woods</a>
+    </p>
+
+    <!-- Abgesetzter Einstieg -->
+    <div class="scene">
+      <p>Wir befinden uns zwischen vielen Bäumen, alle ungefähr gleich alt und gleich hoch. Viele Fichten, dazwischen vereinzelte Weißtannen, Rotbuchen und einige andere Arten. Obwohl es ein sehr heißer Tag ist und die Sonne vom Himmel brennt, ist es hier unten dunkel. Dicht an dicht recken sich die dünnen Stämme in den Himmel, ihr Grün beginnt meist erst weiter oben; in Bodennähe sind die Bäume kahl und stachelig, trockene Äste ragen waagerecht aus den Stämmen und pieksen fast ins Gesicht. Zweige knacken unter den Füßen. Und dann das Klackern und Zischen einer Sprühdose – Farbe markiert Bäume, wabert als farbiger Nebel durch die Luft. Wir begleiten Niels Ondraschek und Christoph Mandel bei ihrer Arbeit. Mit ihrer Initiative Transition Woods kümmern sie sich um verschiedene Waldstücke rund um München, an diesem Tag in einem Waldstück in der Nähe des Walchensees, in Privatbesitz. Im beschriebenen Bestand findet eine Durchforstungsmaßnahme statt: fast ausschließlich gleichaltrige Fichten – rund zwanzig Meter hoch, ähnliche Stammdicke. Ziel ist nicht nur die Holzentnahme, sondern auch die Schaffung eines vielfältigeren Abschnitts: mehr Arten, größere Altersdiversität, mehr Schichten, mehr Totholz. Es gibt Bäume mit blauem Strich, die entnommen werden sollen, und solche mit gelbem Punkt, die bleiben müssen. Dazwischen eine Erschließungslinie für Maschinen; der Blick gilt dem, was entnommen wird – Holz als Rohstoff – und dem, was entstehen kann: spekulativ, der Wald, der einmal sein könnte.</p>
+    </div>
+
+    <h2>Entscheidungen zwischen Erfahrung und Unsicherheit</h2>
+    <p>Die Begutachtung folgt keinem klaren Schema; Niels und Christoph beachten Lichtverhältnisse, Alter, Nachbarschaft, Zustand der Bäume, umrunden Gruppen und mustern sie von oben bis unten. <em>„Man muss immer alles von allen Perspektiven betrachten. Und es kann sein, dass du da draußen stehst und denkst: Der muss auf jeden Fall weg – und von drinnen fragst du dich dann, warum eigentlich.“</em> Trotz Erfahrung bleibt Unsicherheit: Welche Stellschrauben greifen, welche Folgen die Arbeit hat, bleibt unklar. Klima, invasive Arten, Zusammenspiele verschiedener Spezies – vieles ist unvorhersehbar. Ihre Praxis ist situativ, eine Annäherung daran, den Wald in seiner Selbsterhaltung zu unterstützen.</p>
+
+    <h2>Wie kümmern wir Menschen uns um Wälder?</h2>
+    <p>Wälder sind nicht grundsätzlich auf menschliche Eingriffe angewiesen, doch Monokulturen sind anfällig für Schädlinge, Trockenheit, Stürme; ihre Böden sind geschwächt, und „alles sich selbst zu überlassen“ übersteigt menschliche Zeitmaßstäbe. <em>„Der Wald kommt auch ohne Menschen klar, aber der Mensch nicht ohne den Wald. (…) Und der Mensch hat immer keine Zeit. Deshalb versuchen wir, der Zeit zuvorzukommen“,</em> sagt Niels. Weil Wälder historisch und durch Nutzung so stark geprägt sind, halten beide gezielte Interventionen für sinnvoll: Sie wollen dem Wald sein Potenzial zurückgeben. Christoph erklärt: <em>„Dieses Kümmern ist eigentlich darauf ausgerichtet, den Wald in eine Lage zu versetzen, in der er sich selbst entwickeln kann. Er soll ja selbst entscheiden, wie er wachsen will. (…) Natürlich weiß man nie genau, ob das klappt; man sieht es erst nach Jahrzehnten.“</em></p>
+
+    <!-- Abgesetzte Passage statt „Der Unterschied“-Überschrift -->
+    <div class="scene">
+      <p>Schon bevor sie darauf hinweisen, spüren wir den Unterschied: Der nächste Abschnitt wirkt offener, lebendiger; manche Bäume stehen weiter auseinander, Licht fällt bis auf den Boden, Moos breitet sich aus, ganz junge Bäume wachsen nach. Ein umgestürzter Stamm liegt quer, überwuchert von Pilzen, durchzogen von Löchern – alles wirkt lebendig, sogar das Tote. Der Boden, über Jahre abgelagert, liegt Schicht um Schicht – dumpf, federnd, weich.</p>
+    </div>
+    <p><em>„Zum gesunden Wald gehört ja auch der Wald, der stirbt. Wenn ein Baum stirbt, fängt das Leben eigentlich erst richtig an“</em>, sagt Niels.</p>
+
+    <h2>Was ist ein gesunder Wald?</h2>
+    <p>Ein gesunder Wald zeigt Vielschichtigkeit: alte, junge, tote Bäume; daraus entstehen Nischen für Insekten, Pilze, Myzelien, Tiere. Fällt ein Baum, gelangt Licht auf den Boden, neue Bäume wachsen nach; Totholz speichert Wasser, gibt Nährstoffe zurück. Wälder schaffen so ihre eigenen Bedingungen – und sind zugleich auf Störungen angewiesen. Niels und Christoph verstehen Eingriffe als Care-Praktiken, die ein Ökosystem stärken sollen; „Transition“ meint den Wandel von gleichförmigen Forsten hin zu widerstandsfähigeren Mischwäldern. <em>„Ein gesunder Wald darf auch unordentlich aussehen“</em>, sagt Niels. <em>„Muss sogar“</em>, ergänzt Christoph.</p>
+
+    <h2>Wie kümmern sich Wälder um uns?</h2>
+    <p>Wälder sind mehr als Holzlieferanten oder Erholungsräume: Sie regulieren Klima, speichern Wasser, filtern Luft, bieten Lebensraum, binden CO₂, gleichen Temperatur und Feuchtigkeit aus und spenden Schatten – all das trägt zu Gesundheit und Lebensqualität bei. Ihre Fürsorge geht tiefer: Ein umgestürzter Baum wird zum Wasserspeicher; Pilze und Insekten verwandeln Totholz in Nährstoffe für kommende Generationen. In diesem Kreislauf aus Wachstum und Zerfall liegt eine Form von Care, die nicht von Menschen ausgeht und doch unsere bewohnbare Umwelt ermöglicht. Das wirft Fragen auf: Wie sprechen wir davon, dass Wälder sich um uns „kümmern“, ohne sie zu vermenschlichen? Wie anerkennen wir Leistungen, ohne sie auf Ökosystemdienstleistungen oder „Ressourcen“ zu reduzieren? Wälder erscheinen als Akteur:innen, die unsere Welt mitgestalten – mal im Stillen, mal durch Störungen wie Stürme oder Käferbefall.</p>
+
+    <hr>
+
+    <h2>Mehr als die Summe ihrer Bäume</h2>
+    <p>Am Ende bleibt die Frage offen, was ein Wald ist – und wann er als gesund gilt. Wälder sind keine Kulissen, sondern Gefüge aus Lebendigem und Totem, aus Menschen, Pilzen, Böden, Tieren und Bäumen; verletzlich und widerständig zugleich, geprägt von Geschichte und voller Zukunft. Für Niels Ondraschek und Christoph Mandel, Gründer der Initiative Transition Woods, sind Wälder Orte, die es zu erhalten und zu pflegen gilt – für den Planeten und alle, die auf ihm leben. Ihre Arbeit bewegt sich zwischen Eingriff und Vertrauen, Nutzung und Schutz; Waldpflege als Eingreifen, um Potenziale zurückzugeben, ergänzt um Bildungs- und Beratungsarbeit mit Waldbesitzer:innen, Spaziergänge und Workshops. <em>„Zunächst einmal braucht es eine Bewusstseinstransition“</em>, sagt Christoph. <em>„Und wenn man so in den Wald geht wie ihr heute mit uns, dann kann es sein, dass man ihn auf einmal mit ganz anderen Augen sieht.“</em> Nicht nur die Wälder müssen sich wandeln – auch unser Blick auf sie.</p>
+
+    <!-- Vimeo-Video -->
+    <h2>Film: Transition Woods</h2>
+    <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px;margin:14px 0;">
+      <iframe src="https://player.vimeo.com/video/909972814?dnt=1&app_id=122963"
+        style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+        allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Transition Woods (Vimeo)" loading="lazy"></iframe>
+    </div>
+    <p class="note">Dieser Text bezieht sich auf den gleichen Kontext wie das Video. Es ist Teil der multimedialen Plattform
+      <a href="https://careseite.primatevisions.de/careseite/" target="_blank" rel="noopener noreferrer">Careseite</a>, 
+      die gemeinsam mit Studierenden der LMU München entwickelt wurde. Dort finden sich weitere Filme, Texte und Materialien 
+      rund um Multispezies-Care im Anthropozän.</p>
+  </main>
+
+  <!-- Full-bleed Hero unten mit durchgehender Footerleiste -->
+  <figure class="hero-bottom" aria-label="Abschluss-Banner">
+    <img src="gesunder_wald1.png" alt="Waldszene – Abschlussbanner" loading="lazy">
+    <div class="footer-bar" role="contentinfo">
+      <div class="bar-inner">
+        <div class="bar-row"><span class="bar-strong">Autorin:</span> ANTONIA KREUTZER · <span class="bar-strong">Format:</span> Arbeitsprobe</div>
+        <div class="bar-row">Ergänzung zum Projekt <a href="https://careseite.primatevisions.de/careseite/" target="_blank" rel="noopener noreferrer">Careseite</a> (LMU München).</div>
+      </div>
+    </div>
+  </figure>
+
+</body>
+</html>
