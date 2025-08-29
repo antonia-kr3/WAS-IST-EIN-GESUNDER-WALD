@@ -13,7 +13,7 @@
       --line: #e2e8f0;
       --bg: #ffffff;
       --accent: #0f766e;
-      --bar-bg: rgba(255,255,255,.78); /* weniger transparent = besser lesbar */
+      --bar-bg: rgba(255,255,255,.92); /* etwas weniger transparent für bessere Lesbarkeit */
     }
     html,body{
       margin:0; padding:0; background:var(--bg); color:var(--fg);
@@ -27,7 +27,16 @@
     main{max-width:var(--max);margin:0 auto; padding:22px;}
     h1{font-size:1.9rem;line-height:1.25;margin:10px 0 6px; text-wrap:balance}
     .subtitle{margin:0 0 14px; color:var(--muted); font-size:1.05rem}
-    h2{font-size:1.18rem; line-height:1.35; margin:22px 0 8px; text-wrap:balance}
+
+    /* Überschriften weniger “überschriftlich” wirken lassen */
+    h2{
+      font-size:1rem;         /* nahe am Fließtext */
+      line-height:1.55;
+      font-weight:600;        /* nur leicht betont */
+      margin:20px 0 6px;
+      text-wrap:balance;
+    }
+
     p{
       margin:0 0 1.1rem;
       text-align:justify; text-justify:inter-word;
@@ -113,10 +122,13 @@
       <a href="http://transitionwoods.org" target="_blank" rel="noopener">Initiative Transition Woods</a>
     </p>
 
-    <!-- Abgesetzter Einstieg -->
+    <!-- Abgesetzter Einstieg (endet jetzt VOR „Wir begleiten …“) -->
     <div class="scene">
-      <p>Wir befinden uns zwischen vielen Bäumen, alle ungefähr gleich alt und gleich hoch. Viele Fichten, dazwischen vereinzelte Weißtannen, Rotbuchen und einige andere Arten. Obwohl es ein sehr heißer Tag ist und die Sonne vom Himmel brennt, ist es hier unten dunkel. Dicht an dicht recken sich die dünnen Stämme in den Himmel, ihr Grün beginnt meist erst weiter oben; in Bodennähe sind die Bäume kahl und stachelig, trockene Äste ragen waagerecht aus den Stämmen und pieksen fast ins Gesicht. Zweige knacken unter den Füßen. Und dann das Klackern und Zischen einer Sprühdose – Farbe markiert Bäume, wabert als farbiger Nebel durch die Luft. Wir begleiten Niels Ondraschek und Christoph Mandel bei ihrer Arbeit. Mit ihrer Initiative Transition Woods kümmern sie sich um verschiedene Waldstücke rund um München, an diesem Tag in einem Waldstück in der Nähe des Walchensees, in Privatbesitz. Im beschriebenen Bestand findet eine Durchforstungsmaßnahme statt: fast ausschließlich gleichaltrige Fichten – rund zwanzig Meter hoch, ähnliche Stammdicke. Ziel ist nicht nur die Holzentnahme, sondern auch die Schaffung eines vielfältigeren Abschnitts: mehr Arten, größere Altersdiversität, mehr Schichten, mehr Totholz. Es gibt Bäume mit blauem Strich, die entnommen werden sollen, und solche mit gelbem Punkt, die bleiben müssen. Dazwischen eine Erschließungslinie für Maschinen; der Blick gilt dem, was entnommen wird – Holz als Rohstoff – und dem, was entstehen kann: spekulativ, der Wald, der einmal sein könnte.</p>
+      <p>Wir befinden uns zwischen vielen Bäumen, alle ungefähr gleich alt und gleich hoch. Viele Fichten, dazwischen vereinzelte Weißtannen, Rotbuchen und einige andere Arten. Obwohl es ein sehr heißer Tag ist und die Sonne vom Himmel brennt, ist es hier unten dunkel. Dicht an dicht recken sich die dünnen Stämme in den Himmel, ihr Grün beginnt meist erst weiter oben; in Bodennähe sind die Bäume kahl und stachelig, trockene Äste ragen waagerecht aus den Stämmen und pieksen fast ins Gesicht. Zweige knacken unter den Füßen. Und dann das Klackern und Zischen einer Sprühdose – Farbe markiert Bäume, wabert als farbiger Nebel durch die Luft.</p>
     </div>
+
+    <!-- Ab hier normaler Fließtext -->
+    <p>Wir begleiten Niels Ondraschek und Christoph Mandel bei ihrer Arbeit. Mit ihrer Initiative Transition Woods kümmern sie sich um verschiedene Waldstücke rund um München, an diesem Tag in einem Waldstück in der Nähe des Walchensees, in Privatbesitz. Im beschriebenen Bestand findet eine Durchforstungsmaßnahme statt: fast ausschließlich gleichaltrige Fichten – rund zwanzig Meter hoch, ähnliche Stammdicke. Ziel ist nicht nur die Holzentnahme, sondern auch die Schaffung eines vielfältigeren Abschnitts: mehr Arten, größere Altersdiversität, mehr Schichten, mehr Totholz. Es gibt Bäume mit blauem Strich, die entnommen werden sollen, und solche mit gelbem Punkt, die bleiben müssen. Dazwischen eine Erschließungslinie für Maschinen; der Blick gilt dem, was entnommen wird – Holz als Rohstoff – und dem, was entstehen kann: spekulativ, der Wald, der einmal sein könnte.</p>
 
     <h2>Entscheidungen zwischen Erfahrung und Unsicherheit</h2>
     <p>Die Begutachtung folgt keinem klaren Schema; Niels und Christoph beachten Lichtverhältnisse, Alter, Nachbarschaft, Zustand der Bäume, umrunden Gruppen und mustern sie von oben bis unten. <em>„Man muss immer alles von allen Perspektiven betrachten. Und es kann sein, dass du da draußen stehst und denkst: Der muss auf jeden Fall weg – und von drinnen fragst du dich dann, warum eigentlich.“</em> Trotz Erfahrung bleibt Unsicherheit: Welche Stellschrauben greifen, welche Folgen die Arbeit hat, bleibt unklar. Klima, invasive Arten, Zusammenspiele verschiedener Spezies – vieles ist unvorhersehbar. Ihre Praxis ist situativ, eine Annäherung daran, den Wald in seiner Selbsterhaltung zu unterstützen.</p>
@@ -142,7 +154,7 @@
     <p>Am Ende bleibt die Frage offen, was ein Wald ist – und wann er als gesund gilt. Wälder sind keine Kulissen, sondern Gefüge aus Lebendigem und Totem, aus Menschen, Pilzen, Böden, Tieren und Bäumen; verletzlich und widerständig zugleich, geprägt von Geschichte und voller Zukunft. Für Niels Ondraschek und Christoph Mandel, Gründer der Initiative Transition Woods, sind Wälder Orte, die es zu erhalten und zu pflegen gilt – für den Planeten und alle, die auf ihm leben. Ihre Arbeit bewegt sich zwischen Eingriff und Vertrauen, Nutzung und Schutz; Waldpflege als Eingreifen, um Potenziale zurückzugeben, ergänzt um Bildungs- und Beratungsarbeit mit Waldbesitzer:innen, Spaziergänge und Workshops. <em>„Zunächst einmal braucht es eine Bewusstseinstransition“</em>, sagt Christoph. <em>„Und wenn man so in den Wald geht wie ihr heute mit uns, dann kann es sein, dass man ihn auf einmal mit ganz anderen Augen sieht.“</em> Nicht nur die Wälder müssen sich wandeln – auch unser Blick auf sie.</p>
 
     <!-- Vimeo-Video -->
-    <h2>Film: Transition Woods</h2>
+    <h2>Kurzfilm: Transition Woods</h2>
     <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px;margin:14px 0;">
       <iframe src="https://player.vimeo.com/video/909972814?dnt=1&app_id=122963"
         style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
